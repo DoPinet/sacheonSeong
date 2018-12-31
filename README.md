@@ -1,2 +1,2 @@
-# sacheonSeong
-사천성 게임
+# sacheonSeong 
+**사천성 게임**

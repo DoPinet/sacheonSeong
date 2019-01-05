@@ -1,0 +1,21 @@
+/sacheonseong/.DS_Store
+/sacheonseong/node_modules
+/sacheonseong/dist
+
+# local env files
+/sacheonseong/.env.local
+/sacheonseong/.env.*.local
+
+# Log files
+/sacheonseong/npm-debug.log*
+/sacheonseong/yarn-debug.log*
+/sacheonseong/yarn-error.log*
+
+# Editor directories and files
+/sacheonseong/.idea
+/sacheonseong/.vscode
+/sacheonseong/*.suo
+/sacheonseong/*.ntvs*
+/sacheonseong/*.njsproj
+/sacheonseong/*.sln
+/sacheonseong/*.sw*

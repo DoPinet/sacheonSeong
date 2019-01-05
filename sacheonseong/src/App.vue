@@ -2,7 +2,7 @@
   <div id="app">
     <Main/>
   </div>
-</template> z
+</template>
 
 <script>
 import Main from './views/Main.vue'

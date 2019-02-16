@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <!-- block, gameMap 출력 -->
+    block: {{block}}<br>
+    gameMap: {{gameMap}}<br>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -31,12 +34,24 @@
 </template>
 
 <script>
+import { Block } from "../model/Block";
+import {GameMap} from "../model/GameMap";
+
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
     msg: String
+  },
+  data: function () {
+    // block, gameMap
+    var block= new Block();
+    var gameMap = new GameMap();
+    return {
+      block,
+      gameMap
+    }
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

@@ -33,8 +33,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### docker-local 
 ```docker
-docker build -t sacheonSeong
-docker run -it -p 8080:8080 --rm --name sacheonSeong-1.0.0 sacheonSeong
+cd sacheonSeong
+docker build -t sacheonseong .
+docker run -it -p 8080:8080 --rm --name sacheonseong-1.0.0 sacheonseong
+```
+
+check image
+```docker
+docker ps
 ```
 
 참고 : https://vuejs.org/v2/cookbook/dockerize-vuejs-app.html
